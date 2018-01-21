@@ -1,0 +1,43 @@
+
+#statusBar{
+    position: relative;
+    top: -8px;
+    width: inherit;
+    height: fit-content;
+    z-index: -1;
+    background-color: whitesmoke	;
+}
+
+#catagoryContainer{
+    position:relative;
+    top:100px;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#elecContainer{
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+    float:left;
+}
+#clothesContainer{
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+}
+#autoContainer{
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+    padding-left:60px;
+}
+
+#fashionContainer{
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+    float: left;
+}
