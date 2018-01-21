@@ -1,6 +1,8 @@
 from flask import Flask
+from end_points.data_operations import data_operations
 
-app = Flask(__name__, static_url_path='')
+app = Flask(__name__)
+app.register_blueprint(data_operations)
 
 
 @app.route('/')
