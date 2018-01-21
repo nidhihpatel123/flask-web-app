@@ -1,8 +1,8 @@
-console.log("This is loading");
 
+
+es = get
 $(document).ready(function () {
 
-    $.get(function () {
-        
-    })
+
+
 });

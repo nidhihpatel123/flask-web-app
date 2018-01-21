@@ -1,0 +1,20 @@
+#statusBar{
+    position: relative;
+    top: -8px;
+    width: inherit;
+    height: fit-content;
+}
+
+.itemContainer{
+    height:100px;
+    background-color: beige;
+    padding: 30px;
+}
+
+#tableContainer{
+    padding-top: 100px;
+}
+.cellContainer{
+    padding-top: 20px;
+
+}
