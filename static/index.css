@@ -1,4 +1,10 @@
-
+#addItem{
+    float: right;
+    top:10px;
+    position: relative;
+    height:20px;
+    width: 100px;
+}
 #statusBar{
     position: relative;
     top: -8px;

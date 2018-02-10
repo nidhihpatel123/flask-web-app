@@ -7,10 +7,12 @@
 
 .itemContainer{
     height:100px;
-    background-color: beige;
     padding: 30px;
 }
-
+.pictures{
+    height:300px;
+    width:300px;
+}
 #tableContainer{
     padding-top: 100px;
 }
