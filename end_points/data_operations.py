@@ -22,3 +22,5 @@ def search_data():
     for r in resp:
         return_resp.append(r['_source'])
     return json.dumps({"response": return_resp})
+
+
