@@ -1,5 +1,5 @@
 from flask import Blueprint, request, json
-from elasticsearch_dsl import Search
+from elasticsearch_dsl import Search, document, index
 from utilities.elasticsearch_connector import get_es_connector
 
 data_operations = Blueprint('data_operations', __name__)
@@ -23,4 +23,9 @@ def search_data():
         return_resp.append(r['_source'])
     return json.dumps({"response": return_resp})
 
+@data_operations.route("/add_item",methods=['POST'])
+def add_item():
+    data = request.get_json(force=True,silent=True)['item']
+    client.index(index='products',doc_type='items',body=data)
+    return json.dumps({"response":"Hello World"})
 
